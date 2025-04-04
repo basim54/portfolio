@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: Poppins
+}
+
+@plugin "daisyui" {
+    themes: lemonade --default, abyss --prefersdark;
+  }
